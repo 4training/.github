@@ -1,3 +1,4 @@
+![4training.net Logo](https://www.4training.net/mediawiki/images/4training.png)
 ## Motivation
 4training.net is a website with training resources on following the example of Jesus in more than 40 languages:
 - Simple worksheets which are high quality and easy to multiply
@@ -20,6 +21,8 @@ The [4training.net website](https://www.4training.net) runs with [mediawiki](htt
 - We have some repos with mediawiki extension which we customized slightly: [Translate](https://github.com/4training/mediawiki-extensions-Translate), [UniversalLanguageSelector](https://github.com/4training/mediawiki-extensions-UniversalLanguageSelector), [cldr](https://github.com/4training/mediawiki-extensions-cldr), [CustomSidebar](https://github.com/4training/mediawiki-extension-CustomSidebar)
 
 ### App
+<img src="../img/app_welcome_screen.png" alt="App welcome screen" style="width:300px; float:left; margin-right: 10px; margin-bottom: 10px">
+
 The [app](https://play.google.com/store/apps/details?id=net.app4training) provides easy and offline access to all the resources on smartphones. It is implemented in [Dart](https://dart.dev/)/[Flutter](https://flutter.dev/) so that development is fast and we only need one codebase and still target two platforms. The app is currently published in the Android Play Store and we plan to have it available for iOS available by the end of 2024 (this is not a technical issue - for that we need to set up an organization as legal entity which takes time...)
 
 The main aim of the app is to serve people who want to disciple others. It is designed to work offline and to be safe to use also for people who are persecuted because they follow Jesus. To ensure that, the app doesn't use any tracking, doesn't need a login and doesn't collect any personal data. It only needs internet access for downloading / updating resources for a language, afterwards they're available offline. The resources are stored here in different repositories (example: [English resources as HTML](https://github.com/4training/html-en), [English PDFs](https://github.com/4training/pdf-en)) so the app only connects to github.com. Additionally this approach improves redundancy and avoids scaling issues as the app is not directly dependent on the 4training.net website.
